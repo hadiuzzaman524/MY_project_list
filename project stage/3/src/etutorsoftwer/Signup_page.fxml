@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="755.0" prefWidth="848.0" style="-fx-background-color: #635a5c;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="etutorsoftwer.Signup_pageController">
+   <children>
+      <TextField layoutX="258.0" layoutY="243.0" prefHeight="32.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="73.89843463897705">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="258.0" layoutY="307.0" prefHeight="32.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="121.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institution" wrappingWidth="115.47003173828125">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="258.0" layoutY="367.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class" wrappingWidth="60.13673238456249">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="258.0" layoutY="432.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="262.0" layoutY="497.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="262.0" layoutY="561.0" prefHeight="42.0" prefWidth="329.0" style="-fx-background-radius: 70;">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfcfc" layoutX="121.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfcfc" layoutX="122.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="60.13674250245094">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="424.0" layoutY="681.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="174.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Create" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="225.0" layoutY="681.0" mnemonicParsing="false" onAction="#close" prefHeight="42.0" prefWidth="136.0" style="-fx-background-radius: 70; -fx-background-color: black;" text="Cancel" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Text fill="#e1dbdb" layoutX="131.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill up student's  required information" wrappingWidth="611.6708984375">
+         <font>
+            <Font name="System Bold Italic" size="51.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
